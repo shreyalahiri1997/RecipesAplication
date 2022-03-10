@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 380px 380px 380px 380px;
+    gap: 10px;
+    padding: 10px;
+}
+
+#food-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.info-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    color: black;
+}

@@ -1,0 +1,15 @@
+.header {
+    overflow: hidden;
+    background-color: black;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Makes the nav items and logo appear vertically centered with the search box*/
+
+    a {
+        flex-shrink: 0;
+        img {
+            height: 75px;
+        }
+    }
+}

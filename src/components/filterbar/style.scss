@@ -1,0 +1,15 @@
+.sidenav {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background: #000;
+}
+
+.content {
+    margin-left: 200px;
+    height: 100vh;
+    width: auto;
+    position: relative;
+    overflow: auto;
+    z-index: 1;
+}
